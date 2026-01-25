@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Decision Fatigue Tracker",
+  "version": "1.0",
+  "description": "Captures behavioral signals for decision fatigue detection",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*"
+  ]
+}
