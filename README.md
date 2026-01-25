@@ -54,7 +54,7 @@ This dashboard shows how a person’s mental fatigue changes over time while the
 
 In simple terms:
 
-> **The line goes up when thinking becomes harder, and goes down when the mind relaxes.**
+ **The line goes up when thinking becomes harder, and goes down when the mind relaxes.**
 
 This visualization helps capture **not just brief moments of stress**, but how mental fatigue **gradually builds up and naturally fades**, similar to real human behavior.
 
@@ -216,5 +216,6 @@ Decision fatigue is subtle.
 This system treats it that way.
 
 It doesn’t interrupt — it **understands**, then gently nudges.
+
 
 
