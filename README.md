@@ -42,12 +42,21 @@ Each point represents an aggregated behavioral window, helping identify fatigue 
 and recovery phases.
 
 ![Decision Fatigue Dashboard](screenshots/dashboard.png)
-**What this shows:**
-- Y-axis: Normalized fatigue score (0 → 1)
-- X-axis: Time (sliding behavioral windows)
-- Spikes indicate sustained cognitive load
-- Gradual decay reflects recovery behavior
+This dashboard shows how a person’s mental fatigue changes over time while they use their computer.
 
+### What you’re seeing:
+
+- **Upward movements** mean the system detected increasing mental strain  
+- **Downward movements** mean the user is recovering (less stress, more stability)  
+- **Sharp peaks** usually happen after sustained intense activity  
+  (for example: fast typing, frequent corrections, erratic mouse movement)  
+- **Smooth drops** show natural recovery when activity slows down or becomes calmer  
+
+In simple terms:
+
+> **The line goes up when thinking becomes harder, and goes down when the mind relaxes.**
+
+This visualization helps capture **not just brief moments of stress**, but how mental fatigue **gradually builds up and naturally fades**, similar to real human behavior.
 
 ## 📊 Behavioral Features Collected
 
@@ -207,4 +216,5 @@ Decision fatigue is subtle.
 This system treats it that way.
 
 It doesn’t interrupt — it **understands**, then gently nudges.
+
 
