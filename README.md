@@ -35,6 +35,20 @@ Browser Extension
 
 ---
 
+## 📊 Dashboard Preview
+
+The dashboard visualizes decision fatigue over time using real user interaction data.
+Each point represents an aggregated behavioral window, helping identify fatigue build-up
+and recovery phases.
+
+![Decision Fatigue Dashboard](screenshots/dashboard.png)
+**What this shows:**
+- Y-axis: Normalized fatigue score (0 → 1)
+- X-axis: Time (sliding behavioral windows)
+- Spikes indicate sustained cognitive load
+- Gradual decay reflects recovery behavior
+
+
 ## 📊 Behavioral Features Collected
 
 Only aggregated metrics are collected — never raw keystrokes or text.
@@ -193,3 +207,4 @@ Decision fatigue is subtle.
 This system treats it that way.
 
 It doesn’t interrupt — it **understands**, then gently nudges.
+
